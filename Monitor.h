@@ -2,10 +2,10 @@
 #include "UniqueLock.h"
 
 template<class T>
-class monitor
+class Monitor
 {
 public:
-	monitor() {}
+	Monitor() {}
 	struct monitor_helper
 	{
 		monitor_helper(monitor* mon) : m_mon(mon), m_ul(mon->m_lock) {}

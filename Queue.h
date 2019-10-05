@@ -14,6 +14,7 @@ public:
 	void Push(T);
 	T Pop();
 	bool IsEmpty();
+	T First();
 };
 
 template<typename T>
@@ -66,4 +67,10 @@ template<typename T>
 inline bool Queue<T>::IsEmpty()
 {
 	return m_count == 0;
+}
+
+template<typename T>
+inline T Queue<T>::First()
+{
+	return m_elements[0];
 }

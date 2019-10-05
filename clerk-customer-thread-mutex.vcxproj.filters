@@ -41,5 +41,8 @@
     <ClInclude Include="UniqueLock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
